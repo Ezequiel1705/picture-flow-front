@@ -8,7 +8,7 @@ export const usePins = create((get, set) => ({
 
     getPins : async () => {
         try {
-          const data = await fetch('http://localhost:5173/data.json')
+          const data = await fetch('https://picture-flow-back-production.up.railway.app/data.json')
           const pins = await data.json()
           set({ pins })
         } catch (error) {
