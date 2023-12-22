@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080/api/publication'
+const API_URL = 'https://picture-flow-back-production.up.railway.app/api/publication'
 
 export async function getPins () {
     const data = await fetch(`${API_URL}/traer`)
