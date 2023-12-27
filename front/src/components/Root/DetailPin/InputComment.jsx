@@ -2,7 +2,7 @@ import { useCommentPin } from '../../../hooks/usePins'
 import { useAuth } from '../../../hooks/useAuth'
 import { useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { Input } from '../../UI/Input'
+import { Input } from '../../ui/Input'
 
 export function InputComment() {
 
