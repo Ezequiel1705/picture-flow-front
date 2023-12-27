@@ -24,6 +24,7 @@ async function signup ({ credentials }) {
             headers: {
                 "Content-Type": "application/json",
             },
+            mode: 'no-cors',
             body: JSON.stringify(credentials),
     }
 
