@@ -1,4 +1,4 @@
-const API_URL = 'https://picture-flow-back-production.up.railway.app/api/auth/'
+const API_URL = 'https://picture-flow-back-production.up.railway.app/api/auth'
 
 async function singin ({ credentials }) {
 
@@ -10,7 +10,7 @@ async function singin ({ credentials }) {
             body: JSON.stringify(credentials),
     }
 
-    const data = await fetch(`${API_URL}/login`, config)
+    const data = await fetch(`${API_URL}login`, config)
     const user = await data.json()
 
     return user
@@ -27,7 +27,7 @@ async function signup ({ credentials }) {
             body: JSON.stringify(credentials),
     }
 
-    const data = await fetch(`${API_URL}/register`, config)
+    const data = await fetch(`${API_URL}register`, config)
     const user = await data.json()
 
     return user
