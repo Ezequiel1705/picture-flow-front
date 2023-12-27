@@ -1,7 +1,7 @@
 
 import { IconFilter } from '../../icons/IconFilter'
 import { DropDown } from '../../shared/Dropdown'
-import { LinkButton } from '../../UI/LinkButton'
+import { LinkButton } from '../../ui/LinkButton'
 import { IconAdd } from '../../icons/IconAdd'
 import { Menu } from '@headlessui/react'
 
