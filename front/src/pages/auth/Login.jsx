@@ -1,6 +1,6 @@
 import { useAuth } from "../../hooks/useAuth";
 import { useState } from "react";
-import { Input } from "../../components/UI/Input";
+import { Input } from "../../components/ui/Input";
 import { Button } from "../../components/ui/Button";
 import { LinkButton } from "../../components/ui/LinkButton";
 import { IconEye } from "../../components/icons/IconEye";

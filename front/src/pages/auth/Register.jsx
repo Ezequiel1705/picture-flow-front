@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { IconEye } from "../../components/icons/IconEye";
 import { IconEyeClose } from "../../components/icons/IconEyeClose";
 import { Button } from "../../components/ui/Button";
-import { Input } from "../../components/UI/Input";
+import { Input } from "../../components/ui/Input";
 import { LinkButton } from "../../components/ui/LinkButton";
 import { useAuth } from "../../hooks/useAuth";
 import { registerValidate } from "../../utils/auth.validate";
