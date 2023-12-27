@@ -1,3 +1,0 @@
-tasks:
-  - name: web
-    command: npm run dev
