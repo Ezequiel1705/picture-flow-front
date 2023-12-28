@@ -1,4 +1,4 @@
-const API_URL = 'https://picture-flow-back-production.up.railway.app/api/auth'
+const API_URL = 'https://picture-flow-back-production.up.railway.app'
 
 async function singin ({ credentials }) {
 
