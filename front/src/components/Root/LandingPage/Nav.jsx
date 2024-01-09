@@ -6,7 +6,7 @@ export function Nav () {
     return (
         <>
             <nav className="flex gap-x-6 items-center  w-full">
-                <h3 className="font-semibold tracking-widest">LOGO</h3>
+                <img src="/images/logo.png" alt="logo" height="50" width="50"/>
                 <ul className="lg:flex gap-x-3 items-center hidden font-semibold ">
                     <li >
                         <NavLink 
